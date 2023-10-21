@@ -42,6 +42,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'tests',
+        message: 'Provide testing instructions for your project:'
+    },
+    {
+        type: 'input',
         name: 'author',
         message: 'Enter the name of the author:'
     },
@@ -62,8 +67,18 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'contributing',
+        message: 'Provide contribution guidelines for your project:'
+    },
+    {
+        type: 'input',
         name: 'credits',
         message: 'List any credits or resources you referenced during the development of this project:'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address for inquiries:'
     },
     {
         type: 'list',

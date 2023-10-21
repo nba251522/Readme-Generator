@@ -45,6 +45,18 @@ function generateMarkdown(data) {
 
 ![Technologies Used](https://img.shields.io/badge/Technologies-${data.technologies.join('%20')}-blue)
 
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Video](#video)
+- [Author](#author)
+- [Credits](#credits)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
 ## Description
 ${data.description}
 
@@ -56,6 +68,9 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
+## Tests
+${data.tests}
+
 ## Video
 [Walkthrough Video](${data.videoLink})
 
@@ -65,8 +80,18 @@ ${data.usage}
 - [GitHub](${data.github})
 - [Portfolio](${data.portfolio})
 
+## Contributing
+${data.contributing}
+
 ## Credits
 ${data.credits}
+
+## Questions
+For any additional questions, you can reach out to me at [${data.email}](mailto:${data.email}).
+
+- [LinkedIn](${data.linkedin})
+- [GitHub](${data.github})
+- [Portfolio](${data.portfolio})
 
 ${renderLicenseBadge(data.license)}
 ${renderLicenseSection(data.license)}
