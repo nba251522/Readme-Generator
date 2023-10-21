@@ -1,27 +1,18 @@
-# Professional README Generator Starter Code
-
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-
-# Weather Dashboard
+# Professional README Generator
 
 ## Technology Used
 
 | Technology | Resource URL |
 |------------|--------------|
-| HTML | [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) |
-| CSS  | [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) |
+| Node.js | [Node.js](https://nodejs.org/) |
+| Inquirer | [npm Inquirer](https://www.npmjs.com/package/inquirer) |
 | JavaScript | [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-| Git  | [Git](https://git-scm.com/) |
-| OpenWeather API    | [OpenWeather](https://openweathermap.org/) |
 
 ## Description
 
-[Visit the Deployed Webpage](https://nba251522.github.io/Weather-Dashboard/)
+Generate high-quality READMEs fast and efficiently through a command-line interface. Users will be using the Inquirer package that can dynamically generate a README tailored to their project's specifications.
 
-The Weather Dashboard allows users to view current and future weather conditions of multiple cities. This can help users plan their days or trips according to the weather.
-
-![Weather Dashboard Page Image](Develop/images/Webpage%20snip.PNG)
+![App Demo Image](Develop/images/Webpage%20snip.PNG)
 
 ## Table of Contents 
 - [Installation](#installation)                                         
@@ -32,28 +23,30 @@ The Weather Dashboard allows users to view current and future weather conditions
 
 ## Installation
 
-1. Clone the repository: git@github.com:nba251522/Weather-Dashboard.git
-2. Open `index.html` in your preferred browser.
+1. Clone the repository: git@github.com:nba251522/Readme-Generator.git
+2. Navigate to the cloned directory and run `npm install` to install dependencies.
+3. Invoke the application with `node index.js`.
 
-## Usage                                                                            
+## Usage
 
-To start the weather dashboard, [visit the deployed site](https://nba251522.github.io/Weather-Dashboard/). Click the "Start" button to begin and answer the questions as quickly as possible to secure a high score.
+Upon starting the application using `node index.js`, you'll be prompted to provide information about your project. This information will be used to generate the README.md file tailored to your specifications.
+
+[Walkthrough Video](Link-to-your-walkthrough-video)
 
 ## Author Info
 
 **Thomas Er**
 - [LinkedIn](https://www.linkedin.com/in/thomas-er-9b77321b9)
 - [Github](https://github.com/nba251522)
-- [Porfolio](https://nba251522.github.io/thomas-er-porfolio/)
+- [Portfolio](https://nba251522.github.io/thomas-er-porfolio/)
 
 ## Credits
 
 The creation of this application was aided by insights from the following resources:
+  - [W3Schools - JavaScript Tutorial](https://www.w3schools.com/js/)
+  - [W3Schools - Node.js Tutorial](https://www.w3schools.com/nodejs/)
+  - [Inquirer npm Documentation](https://www.npmjs.com/package/inquirer)
 
-- [W3Schools - JavaScript Tutorial](https://www.w3schools.com/js/)
-- [W3Schools - CSS Tutorial](https://www.w3schools.com/css/default.asp)
-- [W3Schools - HTML Tutorial](https://www.w3schools.com/html/default.asp)
-- [OpenWeather API](https://openweathermap.org/api)
 
 ## License
 
