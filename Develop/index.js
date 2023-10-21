@@ -84,7 +84,15 @@ function writeToFile(fileName, data) {
     });
 }
 // TODO: Create a function to initialize app
-function init() {}
-
+function init() {
+    inquirer.prompt(questions)
+        .then((answers) => {
+            const markdownContent = generateMarkdown(answers);
+            writeToFile("generated-README.md", markdownContent);
+        })
+        .catch((error) => {
+            console.error(error);
+        });
+}
 // Function call to initialize app
 init();
