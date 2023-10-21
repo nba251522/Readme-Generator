@@ -12,7 +12,7 @@
 
 Generate high-quality READMEs fast and efficiently through a command-line interface. Users will be using the Inquirer package that can dynamically generate a README tailored to their project's specifications.
 
-![App Demo Image](Develop/images/Webpage%20snip.PNG)
+![App Demo Video](Develop\Walkthrough.webm)
 
 ## Table of Contents 
 - [Installation](#installation)                                         
@@ -31,7 +31,7 @@ Generate high-quality READMEs fast and efficiently through a command-line interf
 
 Upon starting the application using `node index.js`, you'll be prompted to provide information about your project. This information will be used to generate the README.md file tailored to your specifications.
 
-[Walkthrough Video](Link-to-your-walkthrough-video)
+[Walkthrough Video](Develop\Untitled_ Oct 20, 2023 11_40 PM.webm)
 
 ## Author Info
 
