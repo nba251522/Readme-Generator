@@ -31,8 +31,6 @@ Generate high-quality READMEs fast and efficiently through a command-line interf
 
 Upon starting the application using `node index.js`, you'll be prompted to provide information about your project. This information will be used to generate the README.md file tailored to your specifications.
 
-[Walkthrough Video](Develop\Untitled_ Oct 20, 2023 11_40 PM.webm)
-
 ## Author Info
 
 **Thomas Er**
