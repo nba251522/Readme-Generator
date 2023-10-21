@@ -12,7 +12,7 @@
 
 Generate high-quality READMEs fast and efficiently through a command-line interface. Users will be using the Inquirer package that can dynamically generate a README tailored to their project's specifications.
 
-![App Demo Video](Develop\Walkthrough.webm)
+![App Demo Video](./Develop/Walkthrough.webm)
 
 ## Table of Contents 
 - [Installation](#installation)                                         
