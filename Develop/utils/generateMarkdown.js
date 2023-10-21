@@ -40,9 +40,38 @@ This project is licensed under the ${license} license. Read more about it [here]
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+# ${data.title}
 
-`;
+![Technologies Used](https://img.shields.io/badge/Technologies-${data.technologies.join('%20')}-blue)
+
+## Description
+${data.description}
+
+![Application Image](${data.imageLink})
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Video
+[Walkthrough Video](${data.videoLink})
+
+## Author
+- **${data.author}**
+- [LinkedIn](${data.linkedin})
+- [GitHub](${data.github})
+- [Portfolio](${data.portfolio})
+
+## Credits
+${data.credits}
+
+${renderLicenseBadge(data.license)}
+${renderLicenseSection(data.license)}
+
+  `;
 }
 
 module.exports = generateMarkdown;
